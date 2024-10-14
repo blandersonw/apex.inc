@@ -90,8 +90,19 @@
         }
 
         @media (max-width: 768px) {
+            .component-grid {
+                justify-content: flex-start;
+                margin: 0; /* Remove grid margin */
+            }
+
             .component {
-                width: 45%; /* Two components per row */
+                width: 42.5%; /* Two components per row */
+                height: 42.5vw; /* Keep the height equal to the width for square components */
+                margin: 0 2.5% 5% 2.5%; /* 2.5% margin on left and right, 5% at the bottom */
+            }
+
+            .component-text {
+                font-size: 12px; /* Reduce text size to 12px */
             }
         }
     </style>
