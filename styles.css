@@ -55,6 +55,8 @@ body::-webkit-scrollbar {
     align-items: center;
     gap: 20px;
     padding: 20px 0;
+    margin-top: 20px;
+
 }
 
 .btn-small {
@@ -63,7 +65,6 @@ body::-webkit-scrollbar {
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 700;
     font-size: 14px;
-    margin-top: 20px;
     padding: 10px 20px;
     border: none;
     border-radius: 10px; /* Updated from 25px to 10px */
