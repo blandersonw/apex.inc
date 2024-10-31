@@ -67,8 +67,11 @@ body::-webkit-scrollbar {
     font-size: 14px;
     padding: 10px 20px;
     border: none;
-    border-radius: 10px; /* Updated from 25px to 10px */
+    border-radius: 10px;
     cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
 }
 
 .btn-big {
