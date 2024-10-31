@@ -77,6 +77,11 @@ body::-webkit-scrollbar {
     white-space: normal;
 }
 
+.btn-small span {
+    display: inline-block;
+    max-width: 200px;  /* Adjust this value as needed */
+}
+
 .btn-big {
     width: 100%;
     display: flex;
