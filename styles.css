@@ -342,3 +342,23 @@ body::-webkit-scrollbar {
 .bottom-spacer {
     height: 100px;
 }
+
+.legal-links {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.legal-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+.legal-separator {
+    margin: 0 10px;
+    color: #666;
+}
